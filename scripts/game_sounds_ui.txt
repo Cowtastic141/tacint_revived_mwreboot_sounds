@@ -1,0 +1,174 @@
+"Enemy.Hit"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"0.70"
+	"wave"			"ui/hit_indicator.wav"
+}
+
+"Player.Goal_Reached"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_NONE"
+	"pitch"			"90,110"
+	"wave"		"common/goal_reached.wav"
+}
+
+"GunAddon.FlashlightOFF"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.72"
+	"wave"		"weapons/flashlight_OFF.wav"
+}
+
+"GunAddon.FlashlightON"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.72"
+	"wave"		"weapons/flashlight_ON.wav"
+}
+
+"GunAddon.OpticOFF"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.72"
+	"wave"		"weapons/optic_OFF.wav"
+}
+
+"GunAddon.OpticON"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.72"
+	"wave"		"weapons/optic_ON.wav"
+}
+
+"GunAddon.SilencerOFF"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.72"
+	"wave"		"weapons/silencer_OFF.wav"
+}
+
+"GunAddon.SilencerON"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.72"
+	"wave"		"weapons/silencer_ON.wav"
+}
+
+"Hud.ButtonPress1"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.80"
+	"wave"		"common/button_press.wav"
+}
+
+"HudChat.Message"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"0.80"
+	"wave"			"common/talk.wav"
+}
+
+"HudChat.TeamMessage"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"0.80"
+	"wave"			"common/teamtalk.wav"
+}
+"HudChat.Announcement"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"0.80"
+	"wave"			"common/announcement.wav"
+}
+
+"Player.DenyWeaponSelection"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.32"
+	"wave"		"common/wpn_denyselect.wav"
+}
+
+"Player.WeaponSelected"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.32"
+	"wave"		"common/wpn_select.wav"
+}
+
+"Player.WeaponSelectionClose"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.32"
+	"wave"		"common/wpn_hudoff.wav"
+}
+
+"Player.WeaponSelectionMoveSlot"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.32"
+	"wave"		"common/wpn_moveselect.wav"
+}
+
+"UI.HitIndicator"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"wave"		"ui/hit_indicator.wav"
+}
+
+"WP.Delete"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.92"
+	"wave"		"common/wp_delete.wav"
+}
+
+"WP.DeletePlans"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.92"
+	"wave"		"common/wp_deleteplans.wav"
+}
+
+"WP.Plot"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.92"
+	"wave"		"common/wp_plot.wav"
+}
+
+"WP.Start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.92"
+	"wave"		"common/wp_start.wav"
+}
+
+"Action.Error"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.92"
+	"wave"		"UI/error.wav"
+}
+

@@ -1,0 +1,916 @@
+"Player.FallDamage"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"pitch"			"95, 110"
+
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"		"player/falldamage01.wav"
+		"wave"		"player/falldamage02.wav"
+		"wave"		"player/falldamage03.wav"
+	}
+}
+
+"Carpet.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/jump_land_carpet-1.wav"
+		"wave"		"player/jump_land_carpet-2.wav"
+	}
+}
+
+"Concrete.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/jump_land_concrete-1.wav"
+		"wave"		"player/jump_land_concrete-2.wav"
+	}
+}
+
+"Gravel.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/jump_land_gravel-1.wav"
+		"wave"		"player/jump_land_gravel-2.wav"
+	}
+}
+
+"HL2Player.FlashLightOff"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_55dB"
+	"volume"		"0.80"
+	"wave"		"items/flashlight1.wav"
+}
+
+"HL2Player.FlashLightOn"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"		"SNDLVL_55dB"
+	"volume"		"0.80"
+	"wave"		"items/flashlight1.wav"
+}
+
+"HL2Player.PickupWeapon"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.80"
+	"wave"		"items/ammo_pickup.wav"
+}
+
+"HL2Player.Use"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.40"
+	"wave"		"common/wpn_select.wav"
+}
+
+"HL2Player.UseDeny"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.40"
+	"wave"		"common/wpn_denyselect.wav"
+}
+
+"HL2Player.UseNPC"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.40"
+	"wave"		"common/wpn_select.wav"
+}
+
+"Leaves.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/jump_land_leaves-1.wav"
+		"wave"		"player/jump_land_leaves-2.wav"
+	}
+}
+
+"Marble.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/jump_land_marble-1.wav"
+		"wave"		"player/jump_land_marble-2.wav"
+	}
+}
+
+"Metal.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/jump_land_metal-1.wav"
+		"wave"		"player/jump_land_metal-2.wav"
+	}
+}
+
+"Water.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.90"
+	"rndwave"
+	{
+		"wave"		"player/land_water-1.wav"
+		"wave"		"player/land_water-2.wav"
+	}
+}
+
+"Player.AmbientUnderWater"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.22"
+	"wave"		"ambient/water/underwater.wav"
+}
+
+"Player.AUGReload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/aug/aug_reload-1.wav"
+}
+
+"Player.BodyFall_Concrete"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_65dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		"player/land_concrete-1.wav"
+		"wave"		"player/land_concrete-2.wav"
+		"wave"		"player/land_concrete-3.wav"
+	}
+}
+
+"Player.BodyFall_Dirt"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_65dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		"player/land_dirt-1.wav"
+		"wave"		"player/land_dirt-2.wav"
+		"wave"		"player/land_dirt-3.wav"
+	}
+}
+
+"Player.BodyFall_Wood"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_65dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		"player/land_wood-1.wav"
+		"wave"		"player/land_wood-2.wav"
+	}
+}
+
+"Player.CarHit"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_70dB"
+	"volume"		"0.80"
+	"rndwave"
+	{
+		"wave"		"player/bodyfall_land-1.wav"
+		"wave"		"player/bodyfall_land-2.wav"
+		"wave"		"player/bodyfall_land-3.wav"
+	}
+}
+
+"Player.Breathing_Long"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_55dB"
+	"volume"		"0.70"
+	"wave"		"player/breathing_long-1.wav"
+}
+
+"Player.Breathing_Short"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_55dB"
+	"volume"		"0.60"
+	"wave"		"player/breathing_short-1.wav"
+}
+
+"Player.BulletImpact_Vest"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.43"
+	"rndwave"
+	{
+		"wave"		"player/vest_bullet_impact1.wav"
+		"wave"		"player/vest_bullet_impact2.wav"
+		"wave"		"player/vest_bullet_impact3.wav"
+	}
+}
+
+"Player.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.8"
+	"soundlevel"		"SNDLVL_70dB"
+	"rndwave"
+	{
+		"wave"		"player/deathspray-1.wav"
+		"wave"		"player/deathspray-2.wav"
+		"wave"		"player/deathspray-3.wav"
+		"wave"		"player/deathspray-4.wav"
+	}
+}
+
+"Player.DeathNoGib"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.8"
+	"soundlevel"		"SNDLVL_70dB"
+	"rndwave"
+	{
+	//Tony; modified, brought back the old ones; this group contains the group above, PLUS the old ones with screams
+	//so we have more variation again!
+		"wave"		"player/deathspray-1.wav"
+		"wave"		"player/deathspray-5.wav"
+		"wave"		"player/deathspray-2.wav"
+		"wave"		"player/deathspray-6.wav"
+		"wave"		"player/deathspray-3.wav"
+		"wave"		"player/deathspray-7.wav"
+		"wave"		"player/deathspray-4.wav"
+		"wave"		"player/deathspray-8.wav"
+	}
+}
+"Player.DSA58Deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/dsa58/dsa58_deploy-1.wav"
+}
+
+"Player.FallGib"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.75"
+	"pitch"		"90,110"
+	"wave"		"physics/body/body_medium_break2.wav"
+}
+
+"Player.FastRope_Climb"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.50"
+	"wave"		"player/fastrope_climb.wav"
+}
+
+"Player.FastRope_Descend"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_65B"
+	"volume"		"0.5"
+	"pitch"		"90,110"
+	"wave"		"player/fastrope_descend.wav"
+}
+
+"Player.FP6Deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/fp6/fp6_deploy-1.wav"
+}
+
+"Player.FP6Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/fp6/fp6_reload-1.wav"
+}
+
+"Player.Headshot"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_105dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		"player/headshot-1.wav"
+		"wave"		"player/headshot-2.wav"
+		"wave"		"player/headshot-3.wav"
+	}
+}
+
+"Player.Helmet"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_120dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		"player/helm_dink-1.wav"
+		"wave"		"player/helm_dink-2.wav"
+		"wave"		"player/helm_dink-3.wav"
+		"wave"		"player/helm_dink-4.wav"
+	}
+}
+
+"Player.BodyGib"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_105dB"
+	"volume"		"1.0"
+	"rndwave"
+	{
+		"wave"		"player/bodygib-1.wav"
+		"wave"		"player/bodygib-2.wav"
+		"wave"		"player/bodygib-3.wav"
+	}
+}
+
+"Player.Heal"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.85"
+	"wave"		"player/heal.wav"
+}
+
+"Player.Hostage_Grab"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_55dB"
+	"rndwave"
+	{
+		"wave"		"player/hostage_grab-1.wav"
+		"wave"		"player/hostage_grab-2.wav"
+	}
+}
+
+"Player.Hostage_ButtStroke"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_IDLE"
+	"rndwave"
+	{
+		"wave"		"player/hostage_buttstroke-1.wav"
+		"wave"		"player/hostage_buttstroke-2.wav"
+		"wave"		"player/hostage_buttstroke-3.wav"
+	}
+}
+
+"Player.Hostage_KickAway"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_IDLE"
+	"rndwave"
+	{
+		"wave"		"player/hostage_kickaway-1.wav"
+		"wave"		"player/hostage_kickaway-2.wav"
+	}
+}
+
+"Player.M14Deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/m14/m14_deploy-1.wav"
+}
+
+"Player.M14Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/m14/m14_reload-1.wav"
+}
+
+"Player.MP5Deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/mp5/mp5_deploy-1.wav"
+}
+
+"Player.MP5Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/mp5/mp5_reload-1.wav"
+}
+
+"Player.MP7Deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/mp7/mp7_deploy-1.wav"
+}
+
+"Player.MP7Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/mp7/mp7_reload-1.wav"
+}
+
+"Player.P90Deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/p90/p90_deploy-1.wav"
+}
+
+"Player.P90Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/p90/p90_reload-1.wav"
+}
+
+"Player.NVGOff"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_55dB"
+	"volume"		"0.80"
+	"wave"		"items/nvg_off.wav"
+}
+
+"Player.NVGOn"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_55dB"
+	"volume"		"0.80"
+	"wave"		"items/nvg_on.wav"
+}
+
+"Player.OnFire"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.80"
+	"rndwave"
+	{
+		"wave"		"ambient/fire/fire_small_loop1.wav"
+		"wave"		"ambient/fire/fire_small_loop2.wav"
+	}
+}
+
+"Player.PainScream"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.80"
+	"rndwave"
+	{
+		"wave"		"player/pain-1.wav"
+		"wave"		"player/pain-2.wav"
+		"wave"		"player/pain-3.wav"
+		"wave"		"player/pain-4.wav"
+		"wave"		"player/pain-5.wav"
+	}
+}
+
+"Player.PickupWeapon"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.50"
+	"pitch"		"95,105"
+	"wave"		"items/ammo_pickup.wav"
+}
+
+"Player.PistolDeploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/gsr1911/gsr1911_deploy-1.wav"
+}
+
+"Player.PistolReload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/gsr1911/gsr1911_reload-1.wav"
+}
+
+"Player.PlasmaDamage"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.50"
+	"wave"		"player/general/flesh_burn.wav"
+}
+
+"Player.Rappel_Attach"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.50"
+	"wave"		"player/rappel_attach.wav"
+}
+
+"Player.Rappel_Climb"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.45"
+	"wave"		"player/rappel_climb.wav"
+}
+
+"Player.Rappel_Detach"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.45"
+	"wave"		"player/rappel_detach.wav"
+}
+
+"Player.Rappel_Jump"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.45"
+	"wave"		"player/rappel_jump.wav"
+}
+
+"Player.Rappel_Land"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.45"
+	"wave"		"player/rappel_land.wav"
+}
+
+"Player.Rappel_Movement"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.45"
+	"wave"		"player/rappel_movement.wav"
+}
+
+"Player.RequestHealth"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.70"
+	"rndwave"
+	{
+		"wave"		"player/request_health-1.wav"
+		"wave"		"player/request_health-2.wav"
+		"wave"		"player/request_health-3.wav"
+		"wave"		"player/request_health-4.wav"
+		"wave"		"player/request_health-5.wav"
+	}
+}
+
+"Player.RevolverDeploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/mr96/mr96_deploy-1.wav"
+}
+
+"Player.RevolverReload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/mr96/mr96_reload-1.wav"
+}
+
+"Player.Roll"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.60"
+	"rndwave"
+	{
+		"wave"		"player/roll-1.wav"
+		"wave"		"player/roll-2.wav"
+		"wave"		"player/roll-3.wav"
+	}
+}
+
+"Player.Roll_Water"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.90"
+	"wave"		"player/roll_water-1.wav"
+}
+
+"Player.SG551Deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/sg551/sg551_deploy-1.wav"
+}
+
+"Player.SG551Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/sg551/sg551_reload-1.wav"
+}
+
+"Player.MG4Deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.60"
+	"wave"		"weapons/mg4/deploy_3rdperson.wav"
+}
+
+"Player.MG4Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.60"
+	"wave"		"weapons/mg4/mg4_reload.wav"
+}
+
+"Player.Swim"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/wade5.wav"
+		"wave"		"player/footsteps/wade6.wav"
+		"wave"		"player/footsteps/wade7.wav"
+		"wave"		"player/footsteps/wade8.wav"
+	}
+}
+
+"Player.URatioDeploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/uratio/uratio_deploy-1.wav"
+}
+
+"Player.URatioReload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/uratio/uratio_reload-1.wav"
+}
+
+"Player.URatioWorldFire"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.50"
+	"wave"		"weapons/uratio/uratio_world_fire-1.wav"
+}
+
+"Player.SPRWorldFire"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.50"
+	"wave"		"weapons/spr/spr_world_fire-1.wav"
+}
+
+"Player.UseDeny"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.40"
+	"wave"		"common/wpn_select.wav"
+}
+
+"Player.UseTrain"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.80"
+	"wave"		"plats/train_use1.wav"
+}
+
+"Player.UziDeploy"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/uzi/uzi_deploy-1.wav"
+}
+
+"Player.UziReload"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"wave"		"weapons/uzi/uzi_reload-1.wav"
+}
+
+"Player.Wade"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.25"
+	"rndwave"
+	{
+		"wave"		"player/footsteps/wade5.wav"
+		"wave"		"player/footsteps/wade6.wav"
+		"wave"		"player/footsteps/wade7.wav"
+		"wave"		"player/footsteps/wade8.wav"
+	}
+}
+
+"Player.WP_GoalTouch"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_IDLE"
+	"wave"		"player/wp_goal_touch.wav"
+}
+
+"Player.WP_Touch"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_IDLE"
+	"wave"		"player/wp_touch.wav"
+}
+
+"Player.HWaveOver"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_55dB"
+	"rndwave"
+	{
+		"wave"		"player/waveover-1.wav"
+		"wave"		"player/waveover-2.wav"
+		"wave"		"player/waveover-3.wav"
+		"wave"		"player/waveover-4.wav"
+	}
+}
+
+"Player.Suggest_Grenade"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_55dB"
+	"rndwave"
+	{
+		"wave"		"player/advise_grenade-1.wav"
+		"wave"		"player/advise_grenade-2.wav"
+		"wave"		"player/advise_grenade-3.wav"
+	}
+}
+
+"Player.CarStop"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"rndwave"
+	{
+		"wave"		"player/carstop-1.wav"
+		"wave"		"player/carstop-2.wav"
+		"wave"		"player/carstop-3.wav"
+	}
+}
+
+"Player.CarJack"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_55dB"
+	"rndwave"
+	{
+		"wave"		"player/carjack-3.wav"
+		"wave"		"player/carjack-4.wav"
+		"wave"		"player/carjack-5.wav"
+		"wave"		"player/carjack-6.wav"
+	}
+}
+
+"Player.RangeTarget_Down"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_NORM"
+	"wave"		"player/range_target_down-1.wav"
+}
+
+"Sand.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/jump_land_sand-1.wav"
+		"wave"		"player/jump_land_sand-2.wav"
+	}
+}
+
+"Snow.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/jump_land_snow-1.wav"
+		"wave"		"player/jump_land_snow-2.wav"
+	}
+}
+
+"Wood.PlayerLand"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.50"
+	"rndwave"
+	{
+		"wave"		"player/jump_land_wood-1.wav"
+		"wave"		"player/jump_land_wood-2.wav"
+	}
+}
+
+"Player.Car_Hit"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_65dB"
+	"rndwave"
+	{
+		"wave"		"player/car_hit-1.wav"
+		"wave"		"player/car_hit-2.wav"
+		"wave"		"player/car_hit-3.wav"
+	}
+}
+
+"Player.JacketMovement"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_55dB"
+	"rndwave"
+	{
+		"wave"		"player/vest_jingle-1.wav"
+		"wave"		"player/vest_jingle-2.wav"
+		"wave"		"player/vest_jingle-3.wav"
+	}
+}
+
+"Player.Whistle_Dog_Goto"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"			"player/whistle_dog_goto.wav"
+}
+
+"Player.Whistle_Dog_Follow"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"			"player/whistle_dog_follow.wav"
+}
