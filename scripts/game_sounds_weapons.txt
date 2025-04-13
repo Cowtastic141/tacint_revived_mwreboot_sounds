@@ -1441,7 +1441,14 @@
 	"channel"		"CHAN_WEAPON"
 	"soundlevel"		"SNDLVL_130dB"
 	"pitch"			"98,102"
-	"wave"		"^weapons/uratio/uratio_fire-1.wav"
+	"rndwave"
+	{
+		"wave"		"weapons/uratio/uratio_fire_1.wav"
+		"wave"		"weapons/uratio/uratio_fire_2.wav"
+		"wave"		"weapons/uratio/uratio_fire_3.wav"
+		"wave"		"weapons/uratio/uratio_fire_4.wav"
+		"wave"		"weapons/uratio/uratio_fire_5.wav"
+	}
 }
 
 "Weapon_URatio.Flip_Up_Cover"
